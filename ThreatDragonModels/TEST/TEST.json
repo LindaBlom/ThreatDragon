@@ -21,8 +21,8 @@
               "height": 220
             },
             "shape": "trust-boundary-box",
-            "id": "93dc3fc6-50d8-427c-aebe-2bb507708e43",
             "zIndex": -1,
+            "id": "93dc3fc6-50d8-427c-aebe-2bb507708e43",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "Trust Boundary",
@@ -912,9 +912,88 @@
             "vertices": []
           },
           {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "id": "afb14cce-9de5-4feb-9d9b-136956a178ef",
+            "source": {
+              "x": 80,
+              "y": 260
+            },
+            "target": {
+              "x": 210,
+              "y": 270
+            }
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "id": "5310ce27-094b-4fde-9c0b-0ca413a82731",
+            "source": {
+              "x": 820,
+              "y": 30
+            },
+            "target": {
+              "x": 820,
+              "y": 110
+            }
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "id": "cad8d7d5-3a9e-4fce-b6a7-3d7bd6c858c6",
+            "source": {
+              "x": 860,
+              "y": 190
+            },
+            "target": {
+              "x": 1050,
+              "y": 220
+            },
+            "vertices": [
+              {
+                "x": 980,
+                "y": 220
+              },
+              {
+                "x": 1030,
+                "y": 220
+              }
+            ]
+          },
+          {
             "position": {
-              "x": 89,
-              "y": 168
+              "x": 79,
+              "y": 120
             },
             "size": {
               "width": 100,
